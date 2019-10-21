@@ -8,7 +8,7 @@ const quotes = [
       character: "Red Ranger",
       image:
         "https://media.giphy.com/media/SKqyoM5mvEZAA/giphy.gif",
-      isStatus: true,
+      
     },
     {
       quote: "I'm a roxxor nerd",
@@ -45,7 +45,7 @@ const quotes = [
   const ContactList = () => (
     <div>
       {quotes.map(item => (
-        <Contact key={item.character} quote={item.quote} image={item.image} character={item.character} isStatus={item.isStatus}/> 
+        <Contact key={item.character} quote={item.quote} image={item.image} character={item.character} /> 
       ))}
     </div>
   );
